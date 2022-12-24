@@ -6,6 +6,11 @@ Variable:
     - Data type specifies the amount of memory allocated for the variable
     - Data type specifies the type of data a variable can be stored
     - Data can be accessed either using identifier or by the address
+   
+Initialization:
+1. c like initialization
+2. constructor initialization
+3. uniform initialization
 *******************************************************************************/
 #include <iostream>
 
