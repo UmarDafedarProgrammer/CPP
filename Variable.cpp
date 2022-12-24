@@ -6,6 +6,7 @@ Variable:
     - Data type specifies the amount of memory allocated for the variable
     - Data type specifies the type of data a variable can be stored
     - Data can be accessed either using identifier or by the address
+ auto keyword is used to automatically detect the data type for the variable depends up on the value assigned
    
 Initialization:
 1. c like initialization
@@ -37,6 +38,9 @@ int main()
     //uniform initialization
     float f {1.234};
     cout<<f<<endl;
+    
+    auto autovar = var;
+    cout<<autovar<<endl;
 
     return 0;
 }
