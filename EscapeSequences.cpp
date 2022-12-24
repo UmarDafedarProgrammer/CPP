@@ -30,6 +30,13 @@ int main()
     cout<<"Directoy Name$ \\root\\user\\profile.txt"<<endl;
     cout<<"Backspace Check After \b $"<<"Backspace\b\bCheck"<<endl;
     cout<<"Form Feed \f Result Of Form Feed"<<endl;
+    cout<<"line feed \n next line\n";
+    cout<<"Starting here from the first \r Lets see what it is doi\n";
+    
+    cout<<"Horizontal tab"<<endl;
+    cout<<"\twhat is happening"<<endl;
+    cout<<"\v vertical tab"<<endl;
+    
     return 0;
 }
 
