@@ -8,7 +8,9 @@ Data Type:
 1. Primitive Data Types
     - int, floating point numbers, character, boolean,double floating point, void
     
-int : 
+int :
+    short -> short int -> short signed int -> 2 bytes (MSB is used for sign)
+    unsigned short -> unsigned short int -> 2 bytes
     int -> signed -> signed int -> signed 4 bytes (MSB is used for sign)
     unsigned -> unsigned int -> 4 bytes
     long -> signed long -> long int -> signed long int -> 8 bytes (MSB is used for sign)
@@ -23,7 +25,8 @@ character:
     - Requires one byte of data to store the information
     - its unsigned 1 byte
     - Implicit conversion between int and char is possible
-    
+    char -> signed char -> 1 byte (MSB is used for sign)
+    unsigned char -> 1 byte
 
 *******************************************************************************/
 #include <iostream>
