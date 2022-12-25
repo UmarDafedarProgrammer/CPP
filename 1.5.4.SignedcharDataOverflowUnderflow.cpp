@@ -1,6 +1,7 @@
 /******************************************************************************
 Overflow of Value:
     Data overflow occurs when the value assigned is greater than the maximum value variable can hold
+    Data underflow occurs when the value assigned is less than the minimum value variable can hold
 *******************************************************************************/
 #include <iostream>
 #include <limits>
@@ -27,6 +28,7 @@ int main()
   cout<<"bOuc:"<<bOuc<<endl;
   cout<<"b8uc:"<<b8uc<<" "<<uc<<endl;
   
+  cout<<"Underflow of the value"<<endl;
   // unsigned - negative value overflow
   char Uc1=-300;
   bitset<16> b8uc1(Uc1);
