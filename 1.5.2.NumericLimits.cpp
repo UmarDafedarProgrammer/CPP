@@ -16,6 +16,11 @@ int main()
   cout<<"Limits of integer types"<<endl;
   cout<<"-----------------------"<<endl;
   
+  cout<<"char -> signed char "<<endl;
+  cout<<"Range:"<<int(numeric_limits<char>::min())<<" to "<<int(numeric_limits<char>::max())<<endl;
+  cout<<"unsigned char "<<endl;
+  cout<<"Range:"<<int(numeric_limits<unsigned char>::min())<<" to "<<int(numeric_limits<unsigned char>::max())<<endl;
+  
   cout<<"short -> signed short -> signed short int"<<endl;
   cout<<"Range:"<<numeric_limits<short>::min()<<" to "<<numeric_limits<short>::max()<<endl;
   cout<<"unsigned short -> unsigned short int "<<endl;
