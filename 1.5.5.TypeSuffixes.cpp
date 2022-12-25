@@ -1,5 +1,24 @@
 /******************************************************************************
 Type Suffixes
+
+ - By default, all integer literal constants are of type int. However, you can use suffix to modify the type
+        - U - unsigned int
+        - L - long
+        - UL - unsigned long
+        - LL - long long
+    - the suffix can be specified using either upper or lowercase letters.
+    
+- Floting Numers
+    - F - float
+    - L - long double
+- Character literals are presented in a single quote
+    Prefix	Character type
+    u	char16_t
+    U	char32_t
+    L	wchar_t
+    u8	The string literal is encoded in the executable using UTF-8
+    R	The string literal is a raw string
+
 *******************************************************************************/
 #include <iostream>
 #include <typeinfo>
