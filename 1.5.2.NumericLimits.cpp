@@ -1,10 +1,5 @@
 /******************************************************************************
-Overflow of Value in int:
-    Data overflow occurs when the value assigned is greater than the maximum 
-        value variable can hold
-    
-    unsigned int: 0 to 2power32 - 1
-        
+Numeric Limits of integer data types       
 *******************************************************************************/
 #include <iostream>
 #include <limits>
