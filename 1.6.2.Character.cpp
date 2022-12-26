@@ -28,9 +28,21 @@ int main()
     // delete cptr; // can not delete memory location from stack. c is created on stack. But we can not free it by using delete
     cptr = new char('k');
     
-    char carray[] = {'1','h','o','n','e','y'};
+    char carray[] = {'1','h','o','n','e','y','\0'};
     cout<<carray<<endl;
     cout<<*carray<<endl;
+    
+    for(int i=0;i<7;i++)
+        cout<<carray[i];
+    cout<<endl;
+    
+    for(int i=0;i<7;i++)
+        cout<<*(carray+i);
+    cout<<endl;
+    
+    for(int i=0;i<7;i++)
+        cout<<(carray+i)<<" ";
+    cout<<endl;
     
     char carray1[] = "HelloWorld"; cout<<carray1<<endl;
     
