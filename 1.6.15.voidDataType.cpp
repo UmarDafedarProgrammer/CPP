@@ -7,6 +7,7 @@ void type
 - void can be used to specify return type of a function if function does not return any value
 - can not dereference void pointer
 - Freeing the memory pointed by void pointer gives warning
+- There are no arrays of void, nor references to void
 *******************************************************************************/
 #include <iostream>
 
