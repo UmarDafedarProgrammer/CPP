@@ -10,6 +10,23 @@
  - Elements are stored in a contiguous memory locations providing high i/o efficiency
  - Size does not change, during the execution once declared
  - Array identifier is the const pointer to first element of an array (rvalue)
+ 
+Advantages of an Array in C/C++: 
+
+Random access of elements using the array index.
+Use of fewer lines of code as it creates a single array of multiple elements.
+Easy access to all the elements.
+Traversal through the array becomes easy using a single loop.
+Sorting becomes easy as it can be accomplished by writing fewer lines of code.
+Disadvantages of an Array in C/C++: 
+
+Allows a fixed number of elements to be entered which is decided at the time of declaration. Unlike a linked list, an array in C is not dynamic.
+Insertion and deletion of elements can be costly since the elements are needed to be managed in accordance with the new memory allocation.
+Facts about Array in C/C++: 
+
+Accessing Array Elements: 
+Array elements are accessed by using an integer index. Array index starts with 0 and goes till the size of the array minus 1.
+The name of the array is also a pointer to the first element of the array.
 *******************************************************************************/
 #include <iostream>
 
