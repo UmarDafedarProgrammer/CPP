@@ -18,5 +18,12 @@ int main()
     cout<<"Next"<<endl;
     if(isinf(i))
         cout<<"infinite number"<<endl;
+    
+    std::cout << std::boolalpha
+              << "isinf(NaN) = " << std::isinf(NAN) << '\n'
+              << "isinf(Inf) = " << std::isinf(INFINITY) << '\n'
+              << "isinf(0.0) = " << std::isinf(0.0) << '\n'
+              << "isinf(exp(800)) = " << std::isinf(std::exp(800)) << '\n'
+              << "isinf(DBL_MIN/2.0) = " << std::isinf(DBL_MIN/2.0) << '\n';
     return 0;
 }
