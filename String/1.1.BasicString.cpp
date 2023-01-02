@@ -2,7 +2,7 @@
 C String
 - One dimensional array of characters followed by a null character
 - While reading a string processor tries to read the characters till it finds a null character '\0'
-- Length of the string is number of characters in array + 1 (null character)
+- Length of the string is number of characters in array till the null character is identified
 - '\0' - Null character, ASCII value is 0
 *******************************************************************************/
 #include <iostream>
