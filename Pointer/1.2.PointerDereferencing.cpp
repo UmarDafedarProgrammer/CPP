@@ -43,6 +43,6 @@ int main()
 	if(ptr == NULL)
 		cout<<"LOG: Pointer is null"<<endl;
 	else
-		cout<<"LOG: Value pointed by ptr is #"<<*ptr<<endl<<"LOG: Address pointed by ptr is #"<<ptr<<endl<<"LOG: Address of a pointer variable ptr #"<<&ptr<<endl; // dereferencing operator
+		cout<<"LOG: Value pointed by ptr is #"<<*ptr<<endl<<"LOG: Address pointed by ptr is #"<<ptr<<endl<<"LOG: Address of a pointer variable ptr #"<<&ptr<<endl;
  	return 0;
 }
