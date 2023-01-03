@@ -17,6 +17,7 @@ Pointer -
 	- Unary operator - & is used to get the address of a variable
 	- Unary Operatot - * is used to dereference the value from a pointer
 	- NULL Specifies that, pointer is not poitning to any valid address
+	- The reason we associate data type with a pointer is that it knows how many bytes the data is stored in.
 *******************************************************************************/
 #include <iostream>
 #include <cstring>
