@@ -12,10 +12,11 @@ using namespace std;
 int main()
 {
 	int* ptr; // ptr is not initialized and not pointing to correct memory address. Will have junk values
-	cout<<ptr<<endl; // Having a junk value in it as it is not initialized. Invalid access
+	cout<<ptr<<" "<<*ptr<<endl; // Having a junk value in it as it is not initialized. Invalid access
 	
 	int array1[10] = {1,2,3,4,5,6,7,8,9,10};
-	int* ptr = array1+12; // Pointer array1+12 is pointing to the memory address beyond the range. Invalid access of the memory
+	int* invalidptr = array1+12; // Pointer array1+12 is pointing to the memory address beyond the range. Invalid access of the memory
 	
+	cout<<invalidptr<<" "<<*invalidptr<<endl;
 	return 0;
 }
