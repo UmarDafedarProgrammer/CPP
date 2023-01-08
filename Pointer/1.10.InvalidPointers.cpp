@@ -2,6 +2,7 @@
 Invalid Pointers:
 	Pointers are called invalied if they are not initialized
 	In array, if the pointer is pointing to a memory address beyond the range then it is called invalid pointer
+	Invalid pointers not necessarily generate compilation errors
 */
 
 #include <iostream>
