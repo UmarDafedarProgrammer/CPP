@@ -6,7 +6,7 @@ void pointer:
 	- malloc() and calloc() are the main use of void pointers
 	- void pointers can not be dereferenced directly
 	- void* keyword is used to declare a void pointer
-	- pointer arithmetic is not allowed on the void pointer
+	- pointer arithmetic is forbidden on the void pointer. However the size of the void type is 1. It is incremented/decremented  by 1 Memory address
 	
 */
 
