@@ -18,8 +18,13 @@ using namespace std;
 
 int main()
 {
-	long long int n1 = 8;
-	long long int& n2 = n1; // alias name to n1
+	int n1 = 8;
+	int& n2 = n1; // alias name to n1
+	
+	int n3 =44;
+	n2=n3; // Even thought you are trying to assign n3 to n2, it updates the value of n3 to n2 and does not references n3
+	// int& n4; [Error] 'n4' declared as reference but not initialized
+	
 	cout<<n1<<" "<<n2<<endl;
 	n2=30;
 	cout<<n1<<" "<<n2<<endl;
