@@ -6,6 +6,7 @@ void pointer:
 	- malloc() and calloc() are the main use of void pointers
 	- void pointers can not be dereferenced directly
 	- void* keyword is used to declare a void pointer
+	- pointer arithmetic is not allowed on the void pointer
 	
 */
 
@@ -17,6 +18,7 @@ using namespace std;
 int main()
 {
 	void* voidptr = NULL; // void null pointer
+	// voidptr++; warning: ISO C++ forbids incrementing a pointer of type ‘void*’ [-Wpointer-arith]
 	voidptr = new int(98); // void pointer pointing to a variable of type int. Since, data type is not associated with void pointer, you can not directly access it
 	// cout<<*voidptr<<endl; [Error] 'void*' is not a pointer-to-object type
 	// We can not directly dereference the pointers
