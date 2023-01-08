@@ -2,7 +2,7 @@
 Pointer Arithmetic
 	Since, the pointer type holds the address of another varible, arithmetic operations can be peroformed on the pointer variable
 	Arithmetic operations are usefull in arrays to traverse the array
-	
+	Pointer arithmetic is meaningless unless performed on an array.
 	+, -, +=, -=,  operations are valid
 	
 */
