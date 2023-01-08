@@ -3,6 +3,12 @@ Reference:
 	Reference is an alias name to already existing variable
 	datatype& alias = Var;
 	
+	- You cannot have NULL references. Reference must be pointing to valid variable
+	- Once a reference is initialized to an object, it cannot be changed to refer to another object. Pointers can be pointed to another object at any time.
+	- A reference must be initialized when it is created. Pointers can be initialized at any time.
+	- Address of pointer is possible. Address of reference is not possible. It gives of the address of the variable.
+	- Array of pointer is possible while array of references is not possible
+	
 */
 
 #include <iostream>
