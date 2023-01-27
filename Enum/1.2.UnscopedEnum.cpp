@@ -8,9 +8,12 @@ Unscoped enum can directly be accessed within the scope where it is declared
 
 using namespace std;
 
+// Forward declaration of enumerations  (C++11):
+enum Day : char; // non-scoped enum must have type specified
+
 int main()
 {
-    enum Day : char {Mon,Tue,Wed,Thu,Fri,Sat,Sun};
+    enum Day {Mon,Tue,Wed,Thu,Fri,Sat,Sun};
     
     Day Weekend=Mon;
     if(Weekend == Sun)
