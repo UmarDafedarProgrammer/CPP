@@ -3,6 +3,14 @@ Unscoped enum:
     enum [identifier] [: type] {enum-list};
 
 Unscoped enum can directly be accessed within the scope where it is declared
+name for the enum is optional
+
+Unscoped enumerations
+-------------------------
+enum name(optional) { enumerator = constexpr , enumerator = constexpr , ... }	(1)	
+enum name(optional) : type { enumerator = constexpr , enumerator = constexpr , ... }	(2)	(since C++11)
+enum name : type ;	(3)	(since C++11)
+
 *******************************************************************************/
 #include <iostream>
 
