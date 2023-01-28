@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 
@@ -17,6 +18,8 @@ Union:
 	A union cannot have base classes and cannot be used as a base class.
 	A union cannot have non-static data members of reference types.
 	
+	Just like in struct declaration, the default member access in a union is public.
+	Each member is allocated as if it is the only member of the class.
 
 */
 void Union()
